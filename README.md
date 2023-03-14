@@ -1,10 +1,12 @@
 # pattern
 # 1.Create programme for the given pattern:
+~~~
 *****
 *****
 *****
 *****
 *****
+~~~
 # PROGRAM:
 ~~~java
 public class Squarepattern {
@@ -28,13 +30,14 @@ public class Squarepattern {
 ![output](https://user-images.githubusercontent.com/95342910/224887174-14b00a41-d705-4d8f-9c7b-44c68ebb4e88.png)
 
 # 2.Create programme for the given pattern:
+~~~
 *********
  *******
   *****
    ***
     *
     
-    
+~~~    
 # PROGRAM:
 ~~~java
 public class Inverted
@@ -62,6 +65,7 @@ public class Inverted
 ![output-2](https://user-images.githubusercontent.com/95342910/224888239-08b1b4b8-0e5e-405e-a0b5-e12c2b11526f.png)
 
 # 3.Create programme for the given pattern:
+~~~
 *
 **
 ***
@@ -71,7 +75,7 @@ public class Inverted
 ***
 **
 *
-
+~~~
 # PROGRAM:
 ~~~java
 public class Pascaltriangle {
