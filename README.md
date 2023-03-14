@@ -40,20 +40,18 @@ public class Squarepattern {
 ~~~    
 # PROGRAM:
 ~~~java
-public class Inverted
+public class Pattern2
 {
-    public static void main(String[] args)
-    {
-        int rows=5;
-        for (int i= 0; i<= rows-1 ; i++)
+    public static void main(String[] args) {
+        int i,j,n;
+        n=5;
+        for(i=n;i>0;i--)
         {
-            for (int j=0; j<=i; j++)
-            {
+            for(j=0;j<n-i;j++)
                 System.out.print(" ");
-            }
-            for (int k=0; k<=rows-1-i; k++)
+            for(j=1;j<=i*2-1;j++)
             {
-                System.out.print("*" + " ");
+                System.out.print("*");
             }
             System.out.println();
         }
@@ -62,7 +60,7 @@ public class Inverted
 ~~~
 # OUTPUT:
 
-![output-2](https://user-images.githubusercontent.com/95342910/224888239-08b1b4b8-0e5e-405e-a0b5-e12c2b11526f.png)
+![output-2](https://user-images.githubusercontent.com/95342910/224890602-2eab7e96-c3cf-49b7-8d56-eaf393669acf.png)
 
 # 3.Create programme for the given pattern:
 ~~~
